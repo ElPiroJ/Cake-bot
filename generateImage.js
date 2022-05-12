@@ -60,5 +60,5 @@ const generateImage = async (member) => {
   const attachment = new Discord.MessageAttachment(canvas.toBuffer(), "welcome.png")
   return attachment
 }
-
+//...
 module.exports = generateImage
